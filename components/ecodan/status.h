@@ -129,7 +129,7 @@ namespace ecodan
             TH6_2_PHASE_PIPE_TEMP = 7,
             TH32_SUCTION_PIPE_TEMP = 8,
             TH8_HEAT_SINK_TEMP = 10,
-            TH33_SURFACE_TEMP = 9,
+            TH33_SURFACE_TEMP = 14,
             DISCHARGE_SUPERHEAT = 12,
             SUB_COOL = 13,
             FAN_SPEED = 19,
