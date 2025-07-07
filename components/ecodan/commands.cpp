@@ -242,7 +242,7 @@ namespace ecodan
         std::chrono::time_point<std::chrono::steady_clock> LastAttempt{};
     };
 
-    #define MAX_SERVICE_CODE_CMD_SIZE 6
+    #define MAX_SERVICE_CODE_CMD_SIZE 10
     ServiceCodeRuntime serviceCodeCmdQueue[MAX_SERVICE_CODE_CMD_SIZE] = {
         ServiceCodeRuntime{Status::REQUEST_CODE::COMPRESSOR_STARTS, false, 30*60, std::chrono::steady_clock::now() - std::chrono::seconds(60*60)},
         ServiceCodeRuntime{Status::REQUEST_CODE::TH4_DISCHARGE_TEMP, true, 0, std::chrono::steady_clock::time_point{}},
