@@ -252,7 +252,7 @@ namespace ecodan
         //ServiceCodeRuntime{Status::REQUEST_CODE::TH8_HEAT_SINK_TEMP, true, 0, std::chrono::steady_clock::time_point{}},
         ServiceCodeRuntime{Status::REQUEST_CODE::DISCHARGE_SUPERHEAT, true, 0, std::chrono::steady_clock::time_point{}},
         ServiceCodeRuntime{Status::REQUEST_CODE::SUB_COOL, true, 0, std::chrono::steady_clock::time_point{}},
-        ServiceCodeRuntime{Status::REQUEST_CODE::FAN_SPEED, false, 0, std::chrono::steady_clock::time_point{}}
+        //ServiceCodeRuntime{Status::REQUEST_CODE::FAN_SPEED, false, 0, std::chrono::steady_clock::time_point{}}
     };
 
     bool EcodanHeatpump::dispatch_next_status_cmd()
